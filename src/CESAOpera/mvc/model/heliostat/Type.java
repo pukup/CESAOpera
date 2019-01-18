@@ -5,15 +5,11 @@
  */
 package CESAOpera.mvc.model.heliostat;
 
-import java.io.Serializable;
-
 /**
  *
- * @author x
+ * @author lol
  */
-public abstract class Heliostat implements Serializable
-{
-    private final static long SerialVersionUID = 1L;
-    private Variables variables;
+public enum Type {
+    
     
 }
