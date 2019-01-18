@@ -11,5 +11,10 @@ package CESAOpera.mvc.model.heliostat;
  */
 public enum Type {
     
-    
+    Pair(){
+
+    },
+    Odd(){
+        
+    };
 }

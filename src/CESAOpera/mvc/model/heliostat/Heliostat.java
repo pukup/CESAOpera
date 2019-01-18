@@ -5,6 +5,8 @@
  */
 package CESAOpera.mvc.model.heliostat;
 
+import CESAOpera.mvc.model.heliostat.variables.Variables;
+import java.awt.Point;
 import java.io.Serializable;
 
 /**
@@ -12,8 +14,31 @@ import java.io.Serializable;
  * @author x
  */
 public abstract class Heliostat implements Serializable
-{
-    private final static long SerialVersionUID = 1L;
+{    
+    private static long SerialVersionUID = 1L;
     private Variables variables;
+    public abstract Type getType();
+    
+    public Heliostat(Variables variables){
+        setVariables(variables);
+    }   
+    
+    public Heliostat(Heliostat heliostat){
+        setVariables(getVariables());
+    }
+
+    /**
+     * @return the variables
+     */
+    public Variables getVariables() {
+        return variables;
+    }
+
+    /**
+     * @param variables the variables to set
+     */
+    public void setVariables(Variables variables) {
+        this.variables = variables;
+    }
     
 }

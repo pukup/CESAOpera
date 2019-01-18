@@ -11,4 +11,6 @@ package CESAOpera.mvc.model;
  */
 public class TemperatureProfile {
     
+    private int temperature;
+    
 }

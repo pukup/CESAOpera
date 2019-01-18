@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package CESAOpera.mvc.model.heliostat;
+package CESAOpera.mvc.model.heliostat.variables;
 
 import java.awt.Point;
 import java.io.Serializable;
